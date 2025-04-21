@@ -1,9 +1,18 @@
+# 克隆仓库到本地
+git clone https://github.com/your-username/your-repo-name.git
 
-# Welcome to use PicX
+# 进入仓库目录
+cd your-repo-name
 
-[PicX](https://github.com/XPoet/picx) is a simple and powerful image hosting tool. It supports image hosting services via GitHub repository.
+# 初始化仓库
+git init
 
-PicX is completely open source, and you can use it for free.
+# 添加一个README.md文件
+echo "# My Image Repository" > README.md
 
-If you like it, please give it a star on [GitHub](https://github.com/XPoet/picx).
-        
+# 提交更改
+git add README.md
+git commit -m "Initial commit"
+
+# 推送到GitHub
+git push -u origin main
